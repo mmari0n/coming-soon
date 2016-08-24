@@ -1,13 +1,72 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>YOURNAME - Website coming soon !</title>
-  <meta charset="UTF-8">
-  <meta name="description" content="Coming soon template">
-  <meta name="keywords" content="HTML, CSS, JavaScript, Template, Coming soon, Website">
-  <meta name="author" content="Marion MEUNIER">
-  <link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-</body>
+	<head>
+		<title>YOURNAME - Website coming soon !</title>
+		<meta charset="UTF-8">
+		<meta name="description" content="Coming soon template">
+		<meta name="keywords" content="HTML, CSS, JavaScript, Template, Coming soon, Website">
+		<meta name="author" content="Marion MEUNIER">
+
+		<link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="countdown/jquery.countdown.css" />
+		
+	</head>
+	<body>
+	
+	<div class="row">
+		<div class="col-12">
+			<div class="header">
+				<h1>YOURNAME</h1>
+				<h2>Our website isn’t quite ready yet ! We are working very hard on it, meanwhile you can still...</h2>
+			</div>
+		</div>
+	</div>
+	
+	<div class="row">
+		<div class="col-4">
+			<div class="box">
+				<h3>Contact us</h3>
+				<p>Phone : xxx-xxx-xxxx
+				<br/>Email : <a href="mailto:info@yourname.com">info@yourname.com</a></p>
+			</div>
+		</div>
+		<div class="col-4">
+			<div class="box">
+				<h3>Come and see us</h3>
+				<p>1234 S BLVD Lane. Suite 3000 Miami Beach, Florida 33109</p>
+				<a class="get" href="#">Get Directions</a> <!-- Add link of a map here ! -->
+			</div>
+		</div>
+		<div class="col-4">
+			<div class="box">
+				<h3>Follow us</h3>
+				<a href="#"><img src="images/twitter.png" alt="Twitter - YOURNAME"/></a> <!-- Add link to twitter feed here -->
+				<a href="#"><img src="images/facebook.png" alt="Facebook - YOURNAME"/></a> <!-- Add link to facebook page here -->		
+			</div>
+		</div>
+	</div>
+		
+	<div class="row">
+		<div class="col-12">
+			<div id="countdown"></div>
+			<p id="note"></p>
+		</div>		
+	</div>
+	
+	<div class="row">
+		<div class="col-12">
+			<footer>
+				<div class="copyright">
+					<p>Created by <i>Marion MEUNIER</i> - Visit <a href="http://www.marion-meunier.com/" target="_blank"><i>marion-meunier.com</i></a> to learn more about the author !</p>
+				</div>
+			</footer>
+		</div>
+	</div>
+        
+	<!-- JavaScript includes -->
+	<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+	<script src="countdown/jquery.countdown.js"></script>
+	<script src="js/script.js"></script>
+	
+	</body>
 </html>

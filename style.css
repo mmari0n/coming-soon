@@ -1,1 +1,112 @@
+/* Reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,dfn,th,var{font-style:normal;font-weight:normal;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
 
+/*main*/
+html{
+    background: #72ceed; /* For browsers that do not support gradients */
+	font-family:"Helvetica Neue",Helvetica, Arial;
+}
+
+p{
+font-size: 13px;
+color: #656565;
+line-height: 22px;
+margin-bottom: 15px;
+}
+
+h1{
+color: #fff;
+font-size: 60px;
+margin-bottom: 15px;
+}
+
+h2{
+font-family: Georgia, helvetica, arial;
+font-size: 26px;
+color: #fff;
+font-style: italic;
+margin-bottom: 35px;
+}
+
+h3{
+font-family: Georgia, helvetica, arial;
+font-size: 20px;
+font-style: italic;
+margin-bottom: 15px;
+}
+
+* {
+    box-sizing: border-box;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+[class*="col-"] {
+    float: left;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.header{
+padding-top: 120px;
+text-align: center;
+}
+
+.box{
+border: 1px solid #fff;
+background: #ededed;
+-moz-box-shadow: 1px 2px 3px #C6C5C5;
+-webkit-box-shadow: 1px 2px 3px #C6C5C5;
+min-height: 150px;
+width: 100%;
+margin : 10px 0 20px 0;
+padding: 15px;
+text-align:center;
+}
+
+a {
+	text-decoration: none;
+}
+
+#note{
+	color: #666666;
+	font-size: 18px;
+	margin: 0 auto;
+	padding: 4px;
+	text-align: center;
+	width: 600px;
+}
+
+/*----------------------------
+	The Footer
+-----------------------------*/
+
+footer {
+    background: #f8f8f8;
+    padding: 10px 0 5px 0;
+    box-shadow: 0 0 0.1em 0 rgba(0, 0, 0, 0.25);
+    clear: both;
+	margin-top:25px;
+}
+
+footer a :hover{color: #72ceed;}
+
+footer .copyright {
+clear: both;
+color: #bbb;
+margin: 10px 0 0 0;
+padding: 0;
+text-align: center;
+}
